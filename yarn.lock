@@ -364,10 +364,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@navikt/aksel-icons@^5.12.2":
-  version "5.12.2"
-  resolved "https://registry.npmjs.org/@navikt/aksel-icons/-/aksel-icons-5.12.2.tgz"
-  integrity sha512-dfjvEM0KoklKFmyeUUmzsoZZ+/6nvAfA8mrDFJkbUMgzRxZGyadxYOoIIdTQePDPFfl787S5M5fhvRzAHN8+bw==
+"@navikt/aksel-icons@^5.17.2":
+  version "5.17.2"
+  resolved "https://registry.npmjs.org/@navikt/aksel-icons/-/aksel-icons-5.17.2.tgz"
+  integrity sha512-GJwYltpDSkysK0EnTr8D9HJxssKUYi6BHpIFMmomYw4LpFcYDx35dqcWjEtO8bDizcB57eyZuehNIXr1Dv8Elw==
 
 "@navikt/ds-css@^5.17.2":
   version "5.17.2"
@@ -379,24 +379,24 @@
   resolved "https://registry.npmjs.org/@navikt/ds-icons/-/ds-icons-3.4.3.tgz"
   integrity sha512-Ys25tnDUzS+AtagMMW4/154OCZy+pTxCv9uiV4YcZUeXMfjnMiRWx1dueyCODb7FF7Jd6TwELd3G6ieQt/rf+w==
 
-"@navikt/ds-react@^5.12.2":
-  version "5.12.2"
-  resolved "https://registry.npmjs.org/@navikt/ds-react/-/ds-react-5.12.2.tgz"
-  integrity sha512-+oFX9FlIosGxDq5w0BjMl6Pewacun6j37MGq5Or4KbAGGHfgAgUD5CyG9Wv9m5yxzrpANuffLbR8ODHoYLUqvQ==
+"@navikt/ds-react@^5.17.2":
+  version "5.17.2"
+  resolved "https://registry.npmjs.org/@navikt/ds-react/-/ds-react-5.17.2.tgz"
+  integrity sha512-Rzsj9yWCph3Aq7l0RMr6Bjm6L9sXSN1zTy/1O+6+7/bn5550lvWQYI563bR419D4YSrYXeDzIhWebKjHqfxLmA==
   dependencies:
     "@floating-ui/react" "0.25.4"
-    "@navikt/aksel-icons" "^5.12.2"
-    "@navikt/ds-tokens" "^5.12.2"
+    "@navikt/aksel-icons" "^5.17.2"
+    "@navikt/ds-tokens" "^5.17.2"
     "@radix-ui/react-tabs" "1.0.0"
     "@radix-ui/react-toggle-group" "1.0.0"
     clsx "^1.2.1"
     date-fns "^2.30.0"
     react-day-picker "8.3.4"
 
-"@navikt/ds-tokens@^5.12.2":
-  version "5.12.2"
-  resolved "https://registry.npmjs.org/@navikt/ds-tokens/-/ds-tokens-5.12.2.tgz"
-  integrity sha512-OW+imIxLaKRI3XYLi9t1MvTfN8IbBgPnSC46BE6U6bdRZRs6lBZgy8gB5uPgkLrI9iOfx905t9mud6jncIDOvw==
+"@navikt/ds-tokens@^5.17.2":
+  version "5.17.2"
+  resolved "https://registry.npmjs.org/@navikt/ds-tokens/-/ds-tokens-5.17.2.tgz"
+  integrity sha512-5ULNkSkuohFYAvvagnxDYqDNZl2mLaKeoH0OMtofFZLhykvRkQBdP6Onoy3nKEB6ZXC+kuOVWMPGKu4M2ITrtA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"

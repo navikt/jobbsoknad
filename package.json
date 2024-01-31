@@ -13,7 +13,7 @@
     "@amplitude/analytics-browser": "^2.4.0",
     "@navikt/ds-css": "^5.17.2",
     "@navikt/ds-icons": "^3.4.3",
-    "@navikt/ds-react": "^5.12.2",
+    "@navikt/ds-react": "^5.17.2",
     "@tiptap/extension-link": "^2.2.1",
     "@tiptap/react": "^2.2.1",
     "@tiptap/starter-kit": "^2.2.1",
