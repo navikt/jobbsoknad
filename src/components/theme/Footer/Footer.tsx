@@ -6,7 +6,6 @@ const Footer = () => {
         <div className="bg-deepblue-800 w-full">
         <footer
             id="aksel-footer"
-            data-hj-suppress
             data-theme="dark"
             className="mt-14 flex pt-3 z-10 items-center w-6/6 sm:w-5/6 max-w-[80rem] m-auto justify-between toc-ignore text-text-on-inverted bg-deepblue-800 relative flex justify-center"
         >
@@ -26,7 +25,6 @@ function LogoBlock() {
         <div>
             <span className="mt-4 text-2xl whitespace-nowrap">En demo app</span>
             <p className="mt-3 leading-normal">&copy; {new Date().getFullYear()}</p>
-            {/*<p className="leading-normal">En demo app</p>*/}
         </div>
     );
 }
