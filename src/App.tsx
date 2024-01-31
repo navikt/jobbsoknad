@@ -5,16 +5,13 @@ import {ScrollToTop} from "./components/theme/index"
 import Home from "./pages/Home";
 import Privacy from './pages/Privacy';
 import Accessibility from "./pages/Accessibility";
-import initAmplitude from "./utils/Amplitude";
 
 const routes = [
     { path: "/tilgjengelighet", component: <Accessibility /> },
     { path: "/personvern", component: <Privacy /> },
     { path: "*", component: <Home /> },
 ];
-
 export default function App() {
-    initAmplitude();
     return (
         <div>
             <Nav/>

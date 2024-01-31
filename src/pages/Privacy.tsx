@@ -1,6 +1,8 @@
 import {Heading, Link} from "@navikt/ds-react";
+import initAmplitude from "../utils/Amplitude";
 
 function Privacy() {
+    initAmplitude();
     return (
         <div className="App">
             <main>
