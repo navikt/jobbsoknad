@@ -14,9 +14,6 @@ export const initAmplitude = () => {
             pageViews: true,
             sessions: true,
         },
-        trackingOptions: {
-            platform: true,
-        }
 
     });
 
