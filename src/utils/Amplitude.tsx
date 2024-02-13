@@ -1,6 +1,4 @@
-import {add, init} from "@amplitude/analytics-browser";
-import { userAgentEnrichmentPlugin } from '@amplitude/plugin-user-agent-enrichment-browser';
-
+import { init } from "@amplitude/analytics-browser";
 
 export const initAmplitude = () => {
     if (window.location.hostname === 'localhost') {
@@ -14,10 +12,7 @@ export const initAmplitude = () => {
             pageViews: true,
             sessions: true,
         },
-
     });
-
 };
-
 
 export default initAmplitude;
