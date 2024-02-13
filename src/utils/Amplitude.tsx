@@ -7,16 +7,6 @@ export const initAmplitude = () => {
         return;
     }
 
-    //User Agent Tracking Options
-    const uaPlugin = userAgentEnrichmentPlugin({
-        osName: true,
-        osVersion: true,
-        deviceManufacturer: true,
-        deviceModel: true,
-    });
-
-    add(uaPlugin)
-
     init("fa27163cf0da8ea7a4ad324825579462", undefined, {
         serverUrl: "https://amplitude.nav.no/collect",
         serverZone: "EU",
