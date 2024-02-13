@@ -15,6 +15,8 @@ export const initAmplitude = () => {
         deviceModel: true,
     });
 
+    add(uaPlugin)
+
     init("fa27163cf0da8ea7a4ad324825579462", undefined, {
         serverUrl: "https://amplitude.nav.no/collect",
         serverZone: "EU",
@@ -28,7 +30,6 @@ export const initAmplitude = () => {
 
     });
 
-    add(uaPlugin)
 };
 
 
