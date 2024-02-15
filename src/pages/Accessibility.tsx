@@ -1,8 +1,11 @@
 import {Heading} from "@navikt/ds-react";
 import initAmplitude from "../utils/Amplitude";
+import {useEffect} from "react";
 
 function Accessibility() {
-    initAmplitude();
+    useEffect(()=>{
+        initAmplitude();
+    },[])
     return (
         <div className="App">
             <main>
