@@ -7,7 +7,6 @@ export const initAmplitude = () => {
         return;
     }
 
-
     const uaPlugin = userAgentEnrichmentPlugin({
         osName: true,
         osVersion: true,
