@@ -302,14 +302,14 @@ function Home() {
             )}
             {activeStep > 0 && activeStep < 7 && (
                 // @ts-ignore
-                <Button variant="primary" onClick={() => (setActiveStep(activeStep + 1) & window.scrollTo({
+                <Button data-umami-event="next-step" variant="primary" onClick={() => (setActiveStep(activeStep + 1) & window.scrollTo({
                     top: 0,
                     behavior: 'smooth'
                 }))} className="block mt-12 w-40">Neste steg</Button>
             )}
             {activeStep > 1 && activeStep < 7 && (
                 // @ts-ignore
-                <Button variant="secondary" onClick={() => (setActiveStep(activeStep - 1) & window.scrollTo({
+                <Button data-umami-event="prew-step" variant="secondary" onClick={() => (setActiveStep(activeStep - 1) & window.scrollTo({
                     top: 0,
                     behavior: 'smooth'
                 }))} className="block w-40 mt-4">Forrige steg</Button>

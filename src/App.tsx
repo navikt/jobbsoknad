@@ -1,6 +1,5 @@
 import {HashRouter as Router, Route, Routes} from 'react-router-dom';
 import {Nav, Header, Footer} from "./components/theme"
-import {ContentContainer} from "@navikt/ds-react";
 import {ScrollToTop} from "./components/theme/index"
 import Home from "./pages/Home";
 import Privacy from './pages/Privacy';
@@ -16,7 +15,7 @@ export default function App() {
         <div>
             <Nav/>
             <main style={{maxWidth: "600px", marginLeft: "auto", marginRight: "auto"}}>
-                <ContentContainer>
+                <div>
                     <Header/>
                     <Router>
                         <Routes>
@@ -25,7 +24,7 @@ export default function App() {
                             ))}
                         </Routes>
                     </Router>
-                </ContentContainer>
+                </div>
                 <ScrollToTop/>
             </main>
             <Footer/>
