@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+import {useState} from 'react';
 import {useEditor, EditorContent} from '@tiptap/react'
 import {Språkhjelp} from "../components/språkhjelp"
 import {About, Luca} from "../components/theme"
@@ -18,12 +18,8 @@ import Link from '@tiptap/extension-link'
 import {htmlToText} from "html-to-text";
 import "@navikt/ds-css";
 import '../App.css'
-import initAmplitude from "../utils/Amplitude";
 
 function Home() {
-    useEffect(()=>{
-        initAmplitude();
-    },[])
     const [activeStep, setActiveStep] = useState(0)
     const [value, setValue] = useState("")
     const [mobilvisning, setMobilvisning] = useState(true)

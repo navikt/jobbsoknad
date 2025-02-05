@@ -1,11 +1,6 @@
 import {Heading, Link} from "@navikt/ds-react";
-import initAmplitude from "../utils/Amplitude";
-import {useEffect} from "react";
 
 function Privacy() {
-    useEffect(()=>{
-        initAmplitude();
-    },[])
     return (
         <div className="App">
             <main>

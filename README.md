@@ -5,10 +5,15 @@ Jobbsøknad Demo
 
 ---
 
-
 # Henvendelser
 
 Du kan sende spørsmål på e-post til [researchops@nav.no](mailto:researchops@nav.no).
+
+
+## Deploy til Github Pages
+
+git subtree push --prefix dist origin gh-pages
+
 
 ## For NAV-ansatte
 
